@@ -37,6 +37,7 @@ git remote -v # 看到fetch和push两行地址，说明关联上了
 git push -u origin main # 第一次 push → 建立本地和远程的关联
 git push origin main # 之后的 push
 git pull origin main # 每次pull
+git pull origin master --allow-unrelated-histories # pull(允许合并不相关历史，解决冲突)
 ```
 ### 三、分支操作（留着本地）
 #### 0. 分支目的（开发过程）
